@@ -20,11 +20,14 @@
             display: flex;
             justify-content: center;
         }
+        
+        @media (max-width:600px){
         h1{
             font-family: comicsans;
             color: red;
-            font-size: 0.5vw;
-        }
+            font-size: 4vw;
+        }   
+        
         a{
             button{
                 background-color:red;
@@ -36,6 +39,28 @@
                 margin:0;
                 margin-top:1vmin;
             }
+        }
+        }
+        }
+        @media (min-width:601px){
+        h1{
+            font-family: comicsans;
+            color: red;
+            font-size: 0.5vw;
+        }   
+        
+        a{
+            button{
+                background-color:red;
+                border-radius: 10px;
+            }
+            h1{
+                color: black;
+                font-size: 5vw;
+                margin:0;
+                margin-top:1vmin;
+            }
+        }
         }
     </style>
 </head>
